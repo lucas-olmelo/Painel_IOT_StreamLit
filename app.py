@@ -7,11 +7,11 @@ import pandas as pd
 from datetime import datetime
 
 # --- CONFIGURAÇÕES ---
-BROKER_IP = "52.87.253.232"
+BROKER_IP = "3.88.220.198"
 BROKER_PORT = 1883
 TOPICO_COMANDO_LAMP = "/TEF/lamp001/cmd"
 TOPICO_COMANDO_RGB  = "/TEF/rgb001/cmd"
-ORION_URL = "http://52.87.253.232:1026/v2/entities/urn:ngsi-ld:Lamp:001/attrs"
+ORION_URL = "http://3.88.220.198:1026/v2/entities/urn:ngsi-ld:Lamp:001/attrs"
 ORION_HEADERS = {
     'Fiware-Service': 'smart',
     'Fiware-ServicePath': '/'
